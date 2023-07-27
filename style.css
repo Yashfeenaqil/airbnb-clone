@@ -1,0 +1,238 @@
+body {
+    font-family: Arial;
+}
+
+#logo {
+    width: 150px;
+    height: 40px;
+    color: #e04264;
+}
+
+#user {
+    width: 400px;
+    height: 35px;
+    display:flex;
+    gap:30px;
+    align-items: center;
+    padding: 0 5px;
+}
+#user-logo{
+    width: 70px;
+    height: 30px;
+    padding:5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid lightgray;
+    border-radius: 25px;
+    color: lightgrey;
+}
+#face-logo{
+    height:25px;
+    color: darkgrey;
+}
+#nav {
+    width: 1400px;
+    height:55px;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    gap:50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    align-items:center;
+    border-bottom: 1px solid lightgrey;
+    position: sticky;
+    top:0;
+    flex-wrap: wrap;
+    background-color: white;
+    z-index: 100;
+}
+
+#searchbox {
+    font-size: 15px;
+    width: 350px;
+    height: 30px;
+    padding:8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid lightgray;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+.nav-anchor{
+    text-decoration: none;
+    color: black;
+}
+#searchbutton{
+    border:none;
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+    background-color: #e04264;
+}
+.facilities{
+    /* width: 1500px;
+    height:100px; */
+    margin:0 auto;
+    padding:0px 5px;
+    display: flex;
+    justify-content:space-between;
+    padding:10px 15px;
+    align-items:center;
+    position: sticky;
+    top:70px;
+    background-color: white;
+    z-index: 100;
+}
+.facs{
+    width:200px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 0px 25px;
+    font-size: 10px;
+    font-weight:bold;
+    text-align: center;
+}
+.fac{
+    width:200px;
+    height: 400px;
+}
+#filter{
+    display: flex;
+    width:150px;
+    height:30px;
+    margin-bottom: 1px;
+    padding:10px 10px;
+    gap:20px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(17, 17, 17);
+    margin-right: 20px;
+    border:1px solid darkgrey;
+    border-radius: 14px;
+}
+#fil{
+    color: black;
+}
+#price{
+    width:500px;
+    height: 75px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    margin:10px auto;
+    border: 1px solid darkgrey;
+    border-radius: 14px;
+}
+#discount{
+    margin-left: 20px;
+    margin-top: 2px;
+    color: rgb(39, 38, 38);
+}
+#pre2{
+    color:darkgrey;
+}
+.hotel-card{
+    width:330px;
+    height: 480px;
+    margin-top: 20px;
+    border-radius: 14px;
+}
+.hotelimg{
+    width:309px;
+    height:280px;
+    /* position: relative; */
+    border-radius: 14px;
+}
+.card-header{
+    width:310px;
+    height:300px;
+    margin: 10px auto;
+    border-radius: 14px;
+    box-sizing: border-box;
+    position:relative;
+}
+.place{
+    display: flex;
+    height: 40px;
+    width:290px ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: -10px;
+}
+.star{
+    display: flex;
+    gap:7px;
+    align-items: center;
+}
+.desc{
+    width:290px ;
+    height:90px;
+    padding-bottom: 10px;
+    margin:0px auto;
+}
+.like{
+    position: absolute;
+    top:5px;
+    right:10px;
+    color: white;
+}
+.left{
+    position: absolute;
+    top:130px;
+    right:12px;
+    color: white;
+}
+.city{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.dist{
+    color: rgb(116, 113, 113);
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin:20px auto;
+    gap:20px;
+    /* border: 2px solid black; */
+}
+#footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+    height:60px;
+    font-size: 15px;
+    font-weight: bold;
+    margin:2px auto;
+    background-color: white;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    /* font-family:sans-serif; */
+}
+.foot{
+    color: black;
+    text-decoration: none;
+}
+.btn{
+    width:150px;
+    height:50px ;
+    font-size: 17px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    border-radius: 30px;
+    position: fixed;
+    bottom:70px;
+    left:45%;
+    border: none;
+}
